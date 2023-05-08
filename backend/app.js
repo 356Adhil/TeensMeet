@@ -1,5 +1,5 @@
-import 'core-js/features/nullish-coalescing';
-import 'core-js/features/optional-chaining';
+require('core-js/features/nullish-coalescing');
+require('core-js/features/optional-chaining');
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
