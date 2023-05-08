@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const userRoutes = require('./routes/participantsRoutes');
 
-const PORT = 7000;
+const PORT = 4000;
 const MONGODB_URI = 'mongodb+srv://adhilakbar:1356Adhild@cluster0.cpkbij9.mongodb.net/Teens-Meet?retryWrites=true&w=majority';
 
 
